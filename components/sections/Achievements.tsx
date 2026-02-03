@@ -6,7 +6,7 @@ import { Trophy, Award, Medal, Code } from 'lucide-react';
 const achievements = [
   {
     icon: Trophy,
-    title: 'CodeVita 2024',
+    title: 'TCS CodeVita Season 13',
     description: 'Global Rank #3687',
     highlight: '#2 in College',
     color: 'from-yellow-500 to-orange-500',
