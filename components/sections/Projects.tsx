@@ -9,7 +9,7 @@ const projects = [
   {
     title: 'Voice AI Virtual Assistant',
     description: 'An intelligent voice-powered assistant using Gemini AI and speech recognition. Features natural conversations, context awareness, and real-time responses.',
-    tech: ['Next.js', 'Gemini AI', 'Voice API', 'TypeScript', 'Tailwind'],
+    tech: ['React.js', 'Gemini API', 'MongoDB','Express','JWT', 'JavaScript', 'TailwindCSS'],
     achievements: [
       '95% accuracy in voice recognition',
       '200ms average response time',
@@ -22,7 +22,7 @@ const projects = [
   {
     title: 'Custom AI Chatbot for Business',
     description: 'Enterprise-grade chatbot solution for business websites with advanced NLP, custom training, and seamless integration with existing systems.',
-    tech: ['React', 'Node.js', 'Gemini API', 'MongoDB', 'REST API'],
+    tech: ['Next.js', 'Gemini API', 'TypeScript', 'TailwindCSS'],
     achievements: [
       '80% reduction in support tickets',
       '24/7 automated customer service',
