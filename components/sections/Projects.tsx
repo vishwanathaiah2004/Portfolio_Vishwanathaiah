@@ -48,7 +48,7 @@ const projects = [
   {
     title: 'Live Video Streaming Platform',
     description: 'Real-time video streaming web application with low latency, chat functionality, and scalable architecture supporting thousands of concurrent users.',
-    tech: ['Next.js', 'WebRTC', 'Socket.io', 'Express', 'Redis'],
+    tech: ['Next.js', 'WebRTC', 'ZEGO CLOUD', 'Express.Js', 'TailwindCSS'],
     achievements: [
       '5000+ concurrent users',
       'Sub-second latency',
