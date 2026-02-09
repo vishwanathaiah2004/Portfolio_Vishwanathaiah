@@ -111,7 +111,7 @@ export default function AIChatbot() {
                 className="bg-gradient-to-r from-blue-600 to-emerald-600 hover:from-blue-500 hover:to-emerald-500 text-white px-8 py-6 text-lg font-semibold rounded-xl shadow-lg shadow-blue-500/20 hover:shadow-blue-500/40 transition-all"
                 onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
               >
-                Get Your Custom AI Chatbot.
+                Get Your Custom AI Chatbot
               </Button>
             </div>
           </motion.div>
