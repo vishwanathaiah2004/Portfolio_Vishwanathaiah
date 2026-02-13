@@ -133,7 +133,7 @@ export default function About() {
                 {/* Description */}
                 <div className="flex-1">
                   <p className="text-lg sm:text-xl text-slate-300 leading-relaxed">
-                    Detail-oriented <span className="text-blue-400 font-semibold">Software Developer</span> with hands-on experience in full stack development and AI-powered applications. Strong foundation in <span className="text-emerald-400 font-semibold">DSA, OOPs, and system design</span>. Experienced in React, Next.js, Node.js, MongoDB, and Gemini AI. Currently building <span className="text-orange-400 font-semibold">AI chatbot solutions for businesses</span>.
+                    Detail-oriented <span className="text-blue-400 font-semibold">Software Developer</span> with hands-on experience in full stack development and AI-powered applications. Strong foundation in <span className="text-emerald-400 font-semibold">DSA, OOPs, and System design</span>. Experienced in React, Next.js, Node.js, MongoDB, and Gemini AI. Currently building <span className="text-orange-400 font-semibold">AI chatbot solutions for businesses</span>.
                   </p>
                 </div>
               </div>
