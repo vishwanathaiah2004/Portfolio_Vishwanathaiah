@@ -120,7 +120,7 @@ export default function About() {
                     <div className="absolute inset-0 bg-gradient-to-br from-blue-500 to-emerald-500 rounded-full blur-xl opacity-30" />
                     <div className="relative w-full h-full rounded-full overflow-hidden border-4 border-slate-700 shadow-2xl">
                       <Image
-                        src="/profile.jpeg" // Replace with your photo path
+                        src="/profile.jpeg" // Replace with your photo path.
                         alt="Profile Photo"
                         fill
                         className="object-cover"
