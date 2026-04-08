@@ -5,35 +5,50 @@ import { Inter } from 'next/font/google';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'H M Vishwanathaiah Software Developer Portfolio',
-  description: 'Experienced Software Developer specializing in Full Stack Development, AI Integration, and Custom Chatbot Solutions. Building intelligent applications with React, Next.js, Node.js, and Gemini AI.',
-  keywords: ['Software Developer', 'AI Engineer', 'Full Stack Developer', 'React', 'Next.js', 'AI Chatbot', 'Web Development', 'JavaScript', 'TypeScript'],
+  metadataBase: new URL('https://portfolio-vishwanathaiah.vercel.app/'), // 🔥 IMPORTANT
+
+  title: 'H M Vishwanathaiah | Software Developer Portfolio',
+  description:
+    'AI Engineer & Full Stack Developer building voice agents, chatbots, and intelligent systems using React, Next.js, Node.js, and AI.',
+
+  keywords: [
+    'Software Developer',
+    'AI Engineer',
+    'Full Stack Developer',
+    'React',
+    'Next.js',
+    'AI Chatbot',
+    'Voice AI',
+    'Web Development',
+  ],
+
   authors: [{ name: 'H M Vishwanathaiah' }],
+
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://yourwebsite.com',
-    title: 'Software Developer & AI Engineer | Full Stack Portfolio',
-    description: 'Experienced Software Developer specializing in Full Stack Development, AI Integration, and Custom Chatbot Solutions.',
+    url: '/',
     siteName: 'Portfolio',
+    title: 'H M Vishwanathaiah | AI Engineer',
+    description:
+      'Building AI Chatbots, Voice Agents, and Full Stack Applications',
+
     images: [
       {
-        url: 'https:/static/og_default.png',
+        url: '/og-image.png', // ✅ from /public
         width: 1200,
         height: 630,
         alt: 'Portfolio Preview',
       },
     ],
   },
+
   twitter: {
     card: 'summary_large_image',
-    title: 'Software Developer & AI Engineer | Full Stack Portfolio',
-    description: 'Experienced Software Developer specializing in Full Stack Development, AI Integration, and Custom Chatbot Solutions.',
-    images: [
-      {
-        url: 'https:/static/og_default.png',
-      },
-    ],
+    title: 'H M Vishwanathaiah | AI Engineer',
+    description:
+      'AI Developer building voice agents and intelligent systems',
+    images: ['/og-image.png'],
   },
 };
 

@@ -8,6 +8,7 @@ import Certifications from '@/components/sections/Certifications';
 import Resume from '@/components/sections/Resume';
 import Contact from '@/components/sections/Contact';
 import Footer from '@/components/sections/Footer';
+import Experience from '@/components/sections/Experience';
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <About />
       <Skills />
       <Projects />
+      <Experience />
       <AIChatbot />
       <Achievements />
       <Certifications />
