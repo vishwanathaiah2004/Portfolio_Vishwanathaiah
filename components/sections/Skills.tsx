@@ -29,7 +29,7 @@ const skillCategories = [
     color: 'from-violet-500 to-purple-500',
     borderColor: 'border-violet-500/30',
     bgColor: 'from-violet-900/20 to-purple-900/10',
-    skills: ['MongoDB', 'MySQL'],
+    skills: ['MongoDB', 'MySQL','PostgreSQL'],
   },
   {
     title: 'AI & ML',
