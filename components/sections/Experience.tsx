@@ -86,7 +86,7 @@ export default function Experience() {
             {/* Duration */}
             <div className="flex items-center gap-2 text-slate-400 mb-6">
               <Calendar size={16} />
-              <span>Feb 2025 – Present</span>
+              <span>Feb 2026 – May 2026</span>
             </div>
 
             {/* Highlights */}
