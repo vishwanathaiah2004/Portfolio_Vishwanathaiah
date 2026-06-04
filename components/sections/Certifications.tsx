@@ -4,6 +4,14 @@ import { motion } from 'framer-motion';
 import { GraduationCap, Shield, Code2 } from 'lucide-react';
 
 const certifications = [
+    {
+    icon: Shield,
+    title: 'Natural Language Processing',
+    issuer: 'IIT Kharagpur (NPTEL)',
+    color: 'from-orange-500 to-red-500',
+    bgColor: 'from-orange-900/20 to-red-900/10',
+    borderColor: 'border-orange-500/30',
+  },
   {
     icon: Code2,
     title: 'Front End Web Developer',
