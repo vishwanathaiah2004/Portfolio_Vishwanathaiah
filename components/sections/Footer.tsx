@@ -33,7 +33,8 @@ export default function Footer() {
           </div>
 
           <p className="text-slate-400 text-center flex items-center gap-2">
-            Built By <Heart className="w-4 h-4 text-red-500 fill-red-500" /> H M Vishwanathaiah
+            Built By H M Vishwanathaiah
+             {/* <Heart className="w-4 h-4 text-red-500 fill-red-500" /> */}
           </p>
 
           <p className="text-slate-500 text-sm">
