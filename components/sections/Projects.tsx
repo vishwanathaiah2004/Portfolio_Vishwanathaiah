@@ -7,6 +7,20 @@ import { Badge } from '@/components/ui/badge';
 
 const projects = [
   {
+  title: 'CallMind: AI Voice Sales Platform 🤖',
+  description: 'Multi-tenant SaaS platform where businesses deploy AI voice agents that autonomously call leads, qualify them through real conversations, and book meetings — 24/7 with zero human involvement.',
+  tech: ['Next.js', 'TypeScript', 'Node.js', 'Express', 'PostgreSQL', 'Vapi AI', 'Gemini AI', 'TailwindCSS', 'Vercel', 'Render', 'Neon'],
+  achievements: [
+    'Multi-tenant architecture with JWT-scoped data isolation across unlimited business accounts',
+    'Async webhook pipeline that processes AI call transcripts, extracts lead data using Gemini, and auto-books Google Calendar meetings',
+    'Dynamic AI prompt builder that generates personalized agent scripts from each tenant\'s database config',
+  ],
+  gradient: 'from-violet-600 to-purple-700',
+  github: 'https://github.com/vishwanathaiah2004/VoiceAi_call_agent',
+  demo: 'https://voice-ai-call-agent.vercel.app/',
+},
+
+  {
     title: 'Voice AI Virtual Assistant',
     description: 'An intelligent voice-powered assistant using Gemini AI and speech recognition. Features natural conversations, context awareness, and real-time responses.',
     tech: ['React.js', 'Gemini API', 'MongoDB','Express','JWT', 'JavaScript', 'TailwindCSS'],
